@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    margin: 0% 5%;
+    margin: 0% 10%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffff;
     color: rgb(0, 0, 0)
@@ -47,18 +47,22 @@ nav button:hover {
 
 /* OBRAS STYLES */
 
-.obras {
-    display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
-  
+.numero-obra{
+    font-size: 15px;
+    font-weight: bold;
 }
-img{
+.obra{
+    background: #ff1f1f;
+    padding: 5%;
+}
+.obras-img{
     margin-right: 30px;
     margin-top: 10px;
     margin-left: 5px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
 }
-div {
-    background-color: #ffffff;
-
+#obra2{
+    background: rgb(247, 42, 42);
 }
